@@ -44,5 +44,5 @@ const procced = jsonPaths.map((path) => {
   return filteredData.filter(Boolean);
 }).flat().join('\n');
 
-fs.writeFileSync('train.csv', procced)
+// fs.writeFileSync('train.csv', procced)
 console.log(count)
